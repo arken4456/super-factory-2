@@ -1,0 +1,32 @@
+pmg_base_building_super_greenhouse = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_basic_greenhouse
+    }
+}
+
+pmg_agricultural_production = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_agriculture_tier1
+        pm_agriculture_tier2
+    }
+}
+
+pmg_organic_materials = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        # You need to define these in 02_super_greenhouse_methods.txt
+        pm_organic_materials_tier1
+        pm_organic_materials_tier2
+    }
+}
+
+pmg_fertilization_options = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        # You need to define these in 02_super_greenhouse_methods.txt
+        pm_fertilization_basic
+        pm_fertilization_advanced
+    }
+}

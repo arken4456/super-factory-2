@@ -1,0 +1,8 @@
+name="Super Factory"
+path="mod/SuperFactory"
+tags={
+    "Buildings"
+    "Economy"
+    "Gameplay"
+}
+supported_version="1.8.0"
